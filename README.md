@@ -8,7 +8,7 @@ This repository provides a simple implementation of multidimensional numerical i
 - Compares results of Gauss–Legendre and Gauss–Kronrod quadrature rules.
 - Prints result and elapsed time for performance measurement.
 ## Requirements
--Python 3.x
+- Python 3.x
 - NumPy
 - SciPy
 ## Installation
@@ -16,9 +16,9 @@ To install NumPy, run:
 ```
 pip install numpy
 ```
-To install SciPy run:
+To install SciPy, run:
 ```
-python -m pip install "scipy-stubs[scipy]"
+pip install scipy
 ```
 ## Usage
 - Clone or download this repository.
@@ -26,7 +26,7 @@ python -m pip install "scipy-stubs[scipy]"
 - Edit the function f(x) in the script to change the integrand, and adjust Lower and Upper for integration limits.
 - Run the script:
   ```
-  GK_GL_Python.py
+  python GK_GL_Python.py
   ```
 ## Example Output
 ```
