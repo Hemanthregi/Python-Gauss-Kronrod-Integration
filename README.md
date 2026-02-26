@@ -1,12 +1,18 @@
 # Python-Gauss-Kronrod-Integration
 Multidimensional numerical integration in Python using Gauss–Legendre and Gauss–Kronrod quadrature rules.
 ## Overview
-This repository provides a simple implementation of multidimensional numerical integration using the product rules of Gauss–Legendre (7-point) and Gauss–Kronrod (15-point) quadrature in Python. This project demonstrates numerical integration techniques suitable for scientific computing and is designed for clarity and pedagogical use.
+This repository provides a simple implementation of multidimensional numerical integration using the product rules of Gauss–Legendre (7-point) and Gauss–Kronrod (15-point) quadrature in Python. It demonstrates structured deterministic integration and runtime comparison for scientific computing applications.
 ## Features 
 - Handles integration of functions in multiple dimensions.
 - The user can easily edit the integrand function and integration limits.
 - Compares results of Gauss–Legendre and Gauss–Kronrod quadrature rules.
 - Prints result and elapsed time for performance measurement.
+## Numerical Characteristics
+
+- Uses fixed 7-point Legendre and 15-point Kronrod nodes.
+- Deterministic convergence behavior (contrast to Monte Carlo sampling).
+- Runtime scales with quadrature order and dimensional nesting.
+- Suitable for structured evaluation of smooth integrands.
 ## Requirements
 - Python 3.x
 - NumPy
